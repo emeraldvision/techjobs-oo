@@ -16,16 +16,14 @@ import java.util.ArrayList;
 public class JobForm {
 
     @NotNull
-    @Size(min=1, message = "Name may not be empty")
+    @Size(min = 1, message = "Name may not be empty")
     private String name;
 
     @NotNull
     private int employerId;
 
     /*
-        TODO #3 - Included other fields needed to create a job,
-        with correct validation attributes and display names.
-        Don't forget to add getters and setters
+        TODO #3 - Include other fields needed to create a job, with correct validation attributes and display names. Don't forget to add getters and setters
      */
 
     private ArrayList<Employer> employers;
